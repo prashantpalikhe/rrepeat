@@ -1,0 +1,40 @@
+{
+  "name": "rrepeat",
+  "version": "1.0.0",
+  "description": "CLI to repeat a text a given number of times and copy the result to the clipboard.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantpalikhe/rrepeat.git"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "repeat",
+    "rrepeat",
+    "string",
+    "str",
+    "text",
+    "utility"
+  ],
+  "main": "cli.js",
+  "bin": {
+    "rrepeat": "cli.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "author": "Prashant <prashpal09@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prashantpalikhe/rrepeat/issues"
+  },
+  "homepage": "https://github.com/prashantpalikhe/rrepeat#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "copy-paste": "^1.3.0"
+  }
+}
